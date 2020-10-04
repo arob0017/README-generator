@@ -67,13 +67,13 @@ to create your own professional README.md!
 --------------------------------------------------------`);
 
     try {
-        // const userInput = await inquirer.prompt( questions );
-        // console.log(userInput);
-        // const readmeData = generateMarkdown( answers );
+        const answers = await inquirer.prompt( questions );
+        console.log(answers);
+        const readme = generateMarkdown( answers );
 
-        writeToFile("testREADME.md", "readmeData")
-    } catch {
-        console.log(`Error: something is wrong`)
+        writeToFile("testREADME.md", readme)
+    } catch(err) {
+        console.log(`Error: ${err}`)
     }
 }
 
