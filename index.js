@@ -1,51 +1,74 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-// const util = require("util");
-const generateMarkdown = require("./utils/generateMarkdown.js")
-
-// writeFileAsync = util.promisify(fs.writeFile);
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
 const questions = [
     {
         type: "input",
+        name: "username",
+        message: "GitHub Username:",
+        default: "username"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Email address:",
+        default: "email"
+    },
+    {
+        type: "input",
+        name: "repo",
+        message: "GitHub repository name:",
+        default: "README-generator"
+    },
+    {
+        type: "input",
         name: "title",
-        message: "Title:"
+        message: "Title:",
+        default: "Title"
+    },
+    {
+        type: "input",
+        name: "image",
+        message: "Demo image URL/filepath:",
+        default: "https://picsum.photos/300/200"
     },
     {
         type: "input",
         name: "description",
-        message: "Description:"
+        message: "Project description:",
+        default: "Description"
     },
     {
         type: "input",
         name: "installation",
-        message: "Installation:"
+        message: "Installation instructions:",
+        default: "Installation"
     },
     {
         type: "input",
         name: "usage",
-        message: "Usage:"
-    },
-    {
-        type: "input",
-        name: "license",
-        message: "License:"
-    },
-    {
-        type: "input",
-        name: "contributing",
-        message: "Contributing:"
+        message: "Usage information:",
+        default: "Usage"
     },
     {
         type: "input",
         name: "tests",
-        message: "Tests:"
+        message: "Test instructions:",
+        default: "Tests"
     },
     {
         type: "input",
-        name: "questions",
-        message: "Questions:"
+        name: "contributing",
+        message: "Contribution guidelines:",
+        default: "Contributing"
+    },
+    {
+        type: "input",
+        name: "license",
+        message: "License:",
+        default: "Free for use 🙂"
     },
 ];
 
