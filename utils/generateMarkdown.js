@@ -16,7 +16,7 @@ function generateMarkdown(data) {
     return `
 # ${title} 
 ![Top language](https://img.shields.io/github/languages/top/${username}/${repo})
-![License](https://img.shields.io/badge/license-${license}-green)
+![License](https://img.shields.io/github/license/${username}/${repo})
 
 ## Description 
 ![Demo image](${image})
