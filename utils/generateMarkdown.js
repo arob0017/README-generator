@@ -1,18 +1,49 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const { title, description, installation, usage, license, contributing, tests, questions} = data;
-  return `
+    const {
+        username,
+        repo,
+        title,
+        description,
+        installation,
+        usage,
+        license,
+        contributing,
+        tests,
+        feedback
+    } = data;
+    return `
 # ${title} 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![GitHub top language](https://img.shields.io/github/languages/top/${username}/${repo})
 
 ## Description 
+${description}
 
-## Table of Contents (Optional)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Contributing](#contributing)
+* [Feedback](#feedback)
+* [License](#license)
+
 ## Installation
+${installation}
+
 ## Usage 
-## Credits
-## License
-## FAQ
+${usage}
+
+## Tests
+${tests}
+
+## Contributing
+${contributing}
+
+## Feedback
+${feedback}
+
+## License ![GitHub](https://img.shields.io/github/license/${username}/${repo})
+${license}
 `;
 }
 
