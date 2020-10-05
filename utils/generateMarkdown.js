@@ -2,21 +2,25 @@
 function generateMarkdown(data) {
     const {
         username,
+        email,
         repo,
         title,
         description,
+        image,
         installation,
         usage,
-        license,
-        contributing,
         tests,
-        feedback
+        contributing,
+        license,
     } = data;
     return `
 # ${title} 
-![GitHub top language](https://img.shields.io/github/languages/top/${username}/${repo})
+![Top language](https://img.shields.io/github/languages/top/${username}/${repo})
+![License](https://img.shields.io/badge/license-${license}-green)
 
 ## Description 
+![Demo image](${image})
+
 ${description}
 
 ## Table of Contents
@@ -24,7 +28,7 @@ ${description}
 * [Usage](#usage)
 * [Tests](#tests)
 * [Contributing](#contributing)
-* [Feedback](#feedback)
+* [Questions](#questions)
 * [License](#license)
 
 ## Installation
@@ -39,10 +43,12 @@ ${tests}
 ## Contributing
 ${contributing}
 
-## Feedback
-${feedback}
+## Got questions?
+Feel free to contact me @ github.com/${username}
 
-## License ![GitHub](https://img.shields.io/github/license/${username}/${repo})
+For other inquiries, send me an email @ ${email}
+
+## License 
 ${license}
 `;
 }
