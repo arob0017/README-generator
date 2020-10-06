@@ -32,7 +32,7 @@ const questions = [
         type: "input",
         name: "image",
         message: "Demo image URL/filepath:",
-        default: "https://picsum.photos/300/200"
+        default: "https://picsum.photos/400/100"
     },
     {
         type: "input",
@@ -62,7 +62,7 @@ const questions = [
         type: "input",
         name: "contributing",
         message: "Contribution guidelines:",
-        default: "none"
+        default: "Contributions welcome 🙂"
     },
     {
         type: "list",
@@ -83,7 +83,7 @@ const questions = [
             "Mozilla Public License 2.0",
             "The Unlicense",
         ],
-        default: "MIT"
+        default: "free for use 🙂"
     },
 ];
 
@@ -106,10 +106,11 @@ to create your own professional README.md!
 
     try {
         const answers = await inquirer.prompt( questions );
-        console.log(answers);
         const readme = generateMarkdown( answers );
 
-        writeToFile("testREADME.md", readme)
+        writeToFile("sample-README.md", readme)
+        console.log(`
+        Success! A README.md file was created.`)
     } catch(err) {
         console.log(`Error: ${err}`)
     }
