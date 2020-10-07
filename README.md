@@ -2,9 +2,6 @@
 
 ## Description
 
-![demo user input](https://media.giphy.com/media/WzZlGRhsIQBjwZjsEV/giphy.gif)
-![demo user output](https://media.giphy.com/media/g4wUHjOQJLf73UTqZu/giphy.gif)
-
 Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
 
 This command line README generator makes it easy to create and fill out a professional README file, quickly and with all the right components!
@@ -37,7 +34,11 @@ This command line README generator makes it easy to create and fill out a profes
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+A sample README file can be found in the root directory
+> [sample README.md](https://github.com/smcheah/README-generator/blob/main/sample-README.md)
+
+![demo user input](https://media.giphy.com/media/WzZlGRhsIQBjwZjsEV/giphy.gif)
+![demo user output](https://media.giphy.com/media/g4wUHjOQJLf73UTqZu/giphy.gif)
 
 ## Contributing
 
