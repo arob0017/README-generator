@@ -12,7 +12,7 @@ This command line README generator makes it easy to create and fill out a profes
 - [Installation](#installation-hammer_and_wrench)
 - [Usage Demo](#usage-demo)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license-)
 - [Got questions?](#got-questions-thinking)
 
 ## Features & Technologies :sparkles:
