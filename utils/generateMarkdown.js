@@ -1,19 +1,19 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-    const {
-        username,
-        email,
-        repo,
-        title,
-        description,
-        image,
-        installation,
-        usage,
-        tests,
-        contributing,
-        license,
-    } = data;
-    return `
+	const {
+		username,
+		email,
+		repo,
+		title,
+		description,
+		image,
+		installation,
+		usage,
+		tests,
+		contributing,
+		license,
+	} = data;
+	return `
 # ${title} 
 ![Top language](https://img.shields.io/github/languages/top/${username}/${repo})
 ![License](https://img.shields.io/github/license/${username}/${repo})
