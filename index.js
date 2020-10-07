@@ -32,13 +32,13 @@ const questions = [
         type: "input",
         name: "image",
         message: "Demo image URL/filepath:",
-        default: "https://picsum.photos/400/100"
+        default: "https://picsum.photos/500/100"
     },
     {
         type: "input",
         name: "description",
         message: "Project description:",
-        default: "none"
+        default: "This is my project"
     },
     {
         type: "input",
@@ -82,8 +82,7 @@ const questions = [
             "GNU Lesser General Public License v2.1",
             "Mozilla Public License 2.0",
             "The Unlicense",
-        ],
-        default: "free for use 🙂"
+        ]
     },
 ];
 

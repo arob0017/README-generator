@@ -44,7 +44,7 @@ ${tests}
 ${contributing}
 
 ## Got questions?
-Feel free to contact me @ github.com/${username}
+Feel free to contact me @ [github.com/${username}](github.com/${username})
 
 For other inquiries, send me an email @ ${email}
 
