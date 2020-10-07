@@ -42,7 +42,7 @@ A sample README file can be found in the root directory
 
 ## Contributing
 
-Feel free to create a new issue or alternatively, make a pull request
+Feel free to create a new issue or alternatively, make a pull request!
 
 ## License ![GitHub](https://img.shields.io/github/license/smcheah/README-generator)
 
