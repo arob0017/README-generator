@@ -1,10 +1,10 @@
 
 # My Title 
-![Top language](https://img.shields.io/github/languages/top/smcheah/repository-name)
-![License](https://img.shields.io/github/license/smcheah/repository-name)
+![Top language](https://img.shields.io/github/languages/top/smcheah/project0)
+![License](https://img.shields.io/github/license/smcheah/project0)
 
 ## Description 
-![Demo image](https://picsum.photos/400/100)
+![Demo image](https://picsum.photos/500/100)
 
 none
 
@@ -29,9 +29,9 @@ none
 Contributions welcome 🙂
 
 ## Got questions?
-Feel free to contact me @ <github.com/smcheah>
+Feel free to contact me @ [github.com/smcheah](github.com/smcheah)
 
 For other inquiries, send me an email @ smith@example.com
 
 ## License 
-Apache license 2.0
+MIT
