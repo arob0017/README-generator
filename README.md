@@ -11,12 +11,12 @@ This command line README generator makes it easy to create and fill out a profes
 
 ## Table of Contents
 
+-   [Features & Technologies](#features--technologies)
 -   [Installation](#installation)
--   [Features & Technologies](#Features & Technologies)
--   [Credits](#credits)
+-   [Usage](#usage)
+-   [Contributing](#contributing)
 -   [License](#license)
--   [Credits](#credits)
--   [License](#license)
+-   [Got questions? 🤔](#got-questions-)
 
 ## Features & Technologies
 
