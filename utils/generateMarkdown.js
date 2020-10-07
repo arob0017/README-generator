@@ -28,7 +28,7 @@ ${description}
 * [Usage](#usage)
 * [Tests](#tests)
 * [Contributing](#contributing)
-* [Questions](#questions)
+* [Questions](#got-questions)
 * [License](#license)
 
 ## Installation
