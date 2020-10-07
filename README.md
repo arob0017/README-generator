@@ -1,63 +1,52 @@
-# README-generator
+# README-generator ![GitHub top language](https://img.shields.io/github/languages/top/smcheah/README-generator)
 
-## Description 
+## Description
+
+![demo user input](https://media.giphy.com/media/WzZlGRhsIQBjwZjsEV/giphy.gif)
+![demo user output](https://media.giphy.com/media/g4wUHjOQJLf73UTqZu/giphy.gif)
 
 Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
 
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
+This command line README generator makes it easy to create and fill out a professional README file, quickly and with all the right components!
 
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
+## Table of Contents
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
+-   [Installation](#installation)
+-   [Features & Technologies](#Features & Technologies)
+-   [Credits](#credits)
+-   [License](#license)
+-   [Credits](#credits)
+-   [License](#license)
 
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+## Features & Technologies
 
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+-   Top language and license badges
+-   Table of Contents for ease of use
 
-
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
+| Technology  | Description                                                     | Link                                   |
+| ----------- | --------------------------------------------------------------- | -------------------------------------- |
+| Node.js     | JavaScript runtime built on Chrome's V8 JavaScript engine       | https://nodejs.org/en/                 |
+| Inquirer.js | A collection of common interactive command line user interfaces | https://www.npmjs.com/package/inquirer |
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Download a copy of this repository
+2. Navigate to the file location of the downloaded repository using the command line
+3. Run `node index.js`
+4. After completion, a **sample-README.md** file should appear within the directory
 
+## Usage
 
-## Usage 
+Provide instructions and examples for use. Include screenshots as needed.
 
-Provide instructions and examples for use. Include screenshots as needed. 
+## Contributing
 
+Feel free to create a new issue or alternatively, make a pull request
 
-## Credits
+## License ![GitHub](https://img.shields.io/github/license/smcheah/README-generator)
 
-List your collaborators, if any, with links to their GitHub profiles.
+MIT
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+## Got questions? 🤔
 
-If you followed tutorials, include links to those here as well.
-
-
-
-## License
-
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-![GitHub top language](https://img.shields.io/github/languages/top/smcheah/README-generator)
-![GitHub](https://img.shields.io/github/license/smcheah/README-generator)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+Contact me @ simone_cheah@hotmail.com
