@@ -8,14 +8,14 @@ This command line README generator makes it easy to create and fill out a profes
 
 ## Table of Contents
 
--   [Features & Technologies](#features--technologies)
--   [Installation](#installation)
+-   [Features & Technologies :sparkles:](#features--technologies)
+-   [Installation :hammer:](#installation)
 -   [Usage](#usage)
 -   [Contributing](#contributing)
 -   [License](#license)
 -   [Got questions? 🤔](#got-questions-)
 
-## Features & Technologies
+## Features & Technologies :sparkles:
 
 -   Top language and license badges
 -   Table of Contents for ease of use
@@ -25,12 +25,14 @@ This command line README generator makes it easy to create and fill out a profes
 | Node.js     | JavaScript runtime built on Chrome's V8 JavaScript engine       | https://nodejs.org/en/                 |
 | Inquirer.js | A collection of common interactive command line user interfaces | https://www.npmjs.com/package/inquirer |
 
-## Installation
+## Installation :hammer:
 
 1. Download a copy of this repository
-2. Navigate to the file location of the downloaded repository using the command line
-3. Run `node index.js`
-4. After completion, a **sample-README.md** file should appear within the directory
+2. Make sure you have Node.js and npm installed
+    * Install necessary npm packages via `npm install`
+3. Navigate to the file location of the downloaded repository using the command line
+4. Run `node index.js`
+5. After completion, a **sample-README.md** file should appear within the directory
 
 ## Usage
 
