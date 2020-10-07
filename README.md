@@ -10,7 +10,7 @@ This command line README generator makes it easy to create and fill out a profes
 
 -   [Features & Technologies](#features--technologies)
 -   [Installation](#installation)
--   [Usage](#usage)
+-   [Usage Demo](#usage-demo)
 -   [Contributing](#contributing)
 -   [License](#license)
 -   [Got questions?](#got-questions-)
@@ -34,7 +34,7 @@ This command line README generator makes it easy to create and fill out a profes
 4. Run `node index.js`
 5. After completion, a **sample-README.md** file should appear within the directory
 
-## Usage
+## Usage Demo
 
 A sample README file can be found in the root directory
 > [sample README.md](https://github.com/smcheah/README-generator/blob/main/sample-README.md)
