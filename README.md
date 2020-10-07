@@ -8,12 +8,12 @@ This command line README generator makes it easy to create and fill out a profes
 
 ## Table of Contents
 
--   [Features & Technologies :sparkles:](#features--technologies)
--   [Installation :hammer:](#installation)
+-   [Features & Technologies](#features--technologies)
+-   [Installation](#installation)
 -   [Usage](#usage)
 -   [Contributing](#contributing)
 -   [License](#license)
--   [Got questions? 🤔](#got-questions-)
+-   [Got questions?](#got-questions-)
 
 ## Features & Technologies :sparkles:
 
