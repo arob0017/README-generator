@@ -32,7 +32,7 @@ const questions = [
 		type: "input",
 		name: "image",
 		message: "Demo image URL/filepath:",
-		default: "https://picsum.photos/500/100",
+		default: "https://picsum.photos/600/100",
 	},
 	{
 		type: "input",
